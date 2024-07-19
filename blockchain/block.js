@@ -19,7 +19,7 @@ class Block {
         transactionStrings.push(transactionString);
       }      
       
-      
+      "this is merkle tree code "
     const merkleTree = new MerkleTree(transactionStrings);
     merkleTree.build();
     this.merkleRoot = merkleTree.rootHash; 
