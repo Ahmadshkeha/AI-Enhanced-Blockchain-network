@@ -1,4 +1,4 @@
-const Transaction = require('./transaction');
+//const Transaction = require('./transaction');
 const { STARTING_BALANCE } = require('../config');
 const { ec, cryptoHash } = require('../util');
 
