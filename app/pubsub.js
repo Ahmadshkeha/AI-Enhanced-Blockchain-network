@@ -1,6 +1,12 @@
 const redis = require('redis');
 const { json } = require('body-parser');
+<<<<<<< HEAD
 console.log("hello from Main branch");
+=======
+console.log("hello from Main branch");
+
+console.log("hello from MAIN@@ branch");
+>>>>>>> NewBranch
 const CHANNELS = {
     test: "test",
     BLOCKCHAIN: "BLOCKCHAIN",
