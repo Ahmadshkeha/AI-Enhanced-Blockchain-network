@@ -3,7 +3,12 @@ const { GENESIS_DATA, MINE_RATE } = require('../config');
 const { cryptoHash } = require('../util');
 const MerkleTree = require('../util/merkleTree');
 const { json } = require('body-parser');
+<<<<<<< HEAD
 console.log("This is update for main branch");
+=======
+console.log("This is update for main branch");
+console.log("This is update from New Branch");
+>>>>>>> NewBranch2
 class Block {
   constructor({ timestamp, lastHash, hash, data, nonce, difficulty }) {
     this.timestamp = timestamp;
