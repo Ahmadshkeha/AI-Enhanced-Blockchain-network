@@ -2,7 +2,14 @@ version = 1
 
 [[analyzers]]
 name = "javascript"
+enabled = true
 
-  [analyzers.meta]
-  plugins = ["react"]
-  environment = ["nodejs"]
+[[analyzers]]
+name = "eslint"
+enabled = true
+
+[analyzers.meta]
+runtime_version = "14.x"
+
+[analyzers."eslint"]
+enabled = true
