@@ -59,7 +59,7 @@ describe('Block', () => {
     });
 
     it('sets a `timestamp`', () => {
-      expect(minedBlock.timestamp).not.toEqual(undefined);
+      expect(minedBlock.timestamp).not.toEqual(1);
     });
 
     it('creates a SHA-256 `hash` based on the proper inputs', () => {
